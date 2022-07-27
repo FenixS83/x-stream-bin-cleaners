@@ -1,0 +1,22 @@
+
+
+
+li {
+    margin-top: 1%;
+    background-image: url(src/assets/images/closed_can_icon.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    color: #dfe0c8;
+}
+
+li:active {
+    background-image: url(src/assets/images/open_can_icon.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+a {
+    color: #dfe0c8;
+}
