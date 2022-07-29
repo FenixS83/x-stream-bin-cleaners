@@ -1,26 +1,40 @@
+<!-- Header/Nav Component -->
 
-  <nav class='navbar navbar-expand justify-content-between' style='background-color: #254653'>
-    <div class='navbar-nav'>
-      <a>
-        <img src="../assets/images/X_Stream_Bin_Cleaners_Logo.png" alt="Home" class='logo-link col-md-3 mx-4 my-2' routerLinkActive='active' routerLink='/' title='Home'>
-      </a>
+<!-- •	The header should stretch across the entire page -->
 
-      <ul class="nav justify-content-end col-md-6" >
-        <li class='col-md-2'>
+<nav class='navbar navbar-expand justify-content-between' style='background-color: #254653'>
+  <div class='navbar-nav'>
+    <!-- •	The nav bar should contain the business logo on the far-left side of the page  -->
+    <a>
+      <!-- •	Logo should be 3 cols wide -->
+      <!-- •	The logo should serve as a link to the home page -->
+      <img src="../assets/images/X_Stream_Bin_Cleaners_Logo.png" alt="Home" class='logo-link col-md-3 mx-4 my-2' routerLinkActive='active' routerLink='/' title='Home'>
+    </a>
+    
+    <!-- •	The nav bar should contain the nav links to the right side -->
+    <ul class="nav justify-content-end col-md-6" >
+      <!-- •	Nav links should be 2 cols wide -->
+      <!-- •	The nav bar will have an option with a link to Sign-Up -->
+      <li class='col-md-2'>
           <a class='nav-link fs-6 mt-5 me-2 p-2 text-center' routerLinkActive='active' routerLink='/signup'>Sign-Up</a>
         </li>
+        <!-- •	The nav bar will have an option with a link to Sign-In -->
         <li class='col-md-2'>
           <a class='nav-link fs-6 mt-5 me-2 p-2 text-center' routerLinkActive='active' routerLink='/signin'>Sign-In</a>
         </li>
+        <!-- •	The nav bar will have an option with a link to How it Works -->
         <li class='col-md-2'>
           <a class='nav-link fs-6 mt-5 me-2 p-2 text-wrap text-center' routerLinkActive='active' routerLink='/howitworks'>How It Works</a>
         </li>
+        <!-- •	The nav bar will have an option with a link to Service Options -->
         <li class='col-md-2'>
           <a class='nav-link fs-6 mt-5 me-2 p-2 text-center' routerLinkActive='active' routerLink='/serviceoptions'>Service Options</a>
         </li>
+        <!-- •	The nav bar will have an option with a link to About Us -->
         <li class='col-md-2'>
           <a class='nav-link fs-6 mt-5 me-2 p-2  text-center' routerLinkActive='active' routerLink='/about'>About Us</a>
         </li>
+        <!-- •	The nav bar will have an option with a link to Contact Us -->
         <li class='col-md-2'>
           <a class='nav-link fs-6 mt-5 me-2 p-2 text-center' routerLinkActive='active' routerLink='/contact'>Contact Us</a>
         </li>

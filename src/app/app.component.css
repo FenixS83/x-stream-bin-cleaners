@@ -1,6 +1,6 @@
 
 
-
+    /* The nav links should have a closed trash can image when inactive and an open trash can image when active */
 li {
     margin-top: 1%;
     background-image: url(src/assets/images/closed_can_icon.png);

@@ -1,0 +1,17 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+    color: #dfe0c8;
+}
+
+.starIcon {
+    max-width: 5%;
+    margin: 3px;
+}
+
+img {
+    max-width: 7%;
+    margin: 10px;
+}
