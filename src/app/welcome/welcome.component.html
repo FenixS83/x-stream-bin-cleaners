@@ -1,13 +1,11 @@
 <!-- Welcome Component -->
 
 <!-- •	The welcome should go the entire width of the page, NOT in a container -->
-<div class="row g-0 m-0">
+<div class="row g-0 m-0 z-index-0">
     
-    <!-- •	The welcome should show the review component into the top center of the body portion of the page -->
-    <!-- <app-review></app-review> -->
-
-
-
+    
+    
+    
     <!-- "My can is dirty" -->
     <!-- •	The welcome should be split in half width wise -->
     
@@ -15,33 +13,38 @@
     <div class="card bg-light w-50" style="max-height: 75%; border-color: rgba(231, 111, 81, 0.7);">
         <img src="../../assets/images/welcome_images/welcome_dirty.png" class="card-img h-100" alt="...">
         <a href="">
-        <div class="card-img-overlay text-center align-middle postion-absolute top-50 start-50 translate-middle" style="padding-top: 20%;" id="dirty">
-          <h5 class="card-title m-5 fs-1">My Can is Dirty...</h5>
-          <p class="card-text fs-3 m-5">Click here to Sign-Up</p>
-        </div>
-    </a>
-</div>
-
-<!-- •	The welcome right 50% should be the “My can is clean” button with a different 40% opacity background color -->
+            <div class="card-img-overlay text-center align-middle postion-absolute top-50 start-50 translate-middle" style="padding-top: 20%;" id="dirty">
+                <h5 class="card-title m-5 fs-1">My Can is Dirty...</h5>
+                <p class="card-text fs-3 m-5">Click here to Sign-Up</p>
+            </div>
+        </a>
+    </div>
+    
+    <!-- •	The welcome right 50% should be the “My can is clean” button with a different 40% opacity background color -->
     <div class="card bg-light w-50" style="max-height: 75%; border-color:rgba(43, 157, 143, 0.7);
     ;">
         <img src="../../assets/images/welcome_images/welcome_clean.png" class="card-img h-100" alt="...">
         <a href="">
-        <div class="card-img-overlay text-center align-middle postion-absolute top-50 translate-middle" style="padding-top: 20%;"id="clean">
-          <h5 class="card-title m-5 fs-1">My Can is Clean...</h5>
-          <p class="card-text fs-3 m-5">Click here to Sign-In</p>
-        </div>
-    </a>
-      </div>
-      
+            <div class="card-img-overlay text-center align-middle postion-absolute top-50 translate-middle" style="padding-top: 20%;"id="clean">
+                <h5 class="card-title m-5 fs-1">My Can is Clean...</h5>
+                <p class="card-text fs-3 m-5">Click here to Sign-In</p>
+            </div>
+        </a>
     </div>
+    
+</div>
 
-    <!-- •	The welcome should have a button to “Learn More” in the bottom center -->
-    <div class="" style=" position:absolute; top:75%; left: 43%">
-        <button class="btn fs-5" style="background-color: #E9C46A; width: 175%;">Learn More</button>
-    </div>
+<!-- •	The welcome should have a button to “Learn More” in the bottom center -->
+<div class="" style=" position:absolute; top:75%; left: 43%">
+    <button class="btn fs-5" style="background-color: #E9C46A; width: 175%;">Learn More</button>
+</div>
 
+<div>
 
+    <!-- •	The welcome should show the review component into the top center of the body portion of the page -->
+    <app-review class="z-index-2" style="position:absolute; top:20%; left: 20%"></app-review>
+</div>
+    
 
 
 
