@@ -10,8 +10,12 @@
     <!-- •	The welcome should be split in half width wise -->
     
     <!-- •	The welcome left 50% should be the “My can is dirty” button with a 40% opacity background color -->
-    <div class="card bg-light w-50" style="max-height: 75%; border-color: rgba(231, 111, 81, 0.7);">
-        <img src="../../assets/images/welcome_images/welcome_dirty.png" class="card-img h-100" alt="...">
+    <div class="card bg-light w-50" style="max-height: 75%;" id="dirtyCanSection">
+    <!-- <div class="card bg-light w-50" style="max-height: 75%; border-color: rgba(231, 111, 81, 0.7);"> -->
+        <!-- <img src="../../assets/images/welcome_images/welcome_dirty.png" class="card-img img-fluid h-100" alt="..."> -->
+        <video autoplay muted playsinline loop id="dirtyCanVideo" style="height:100%; width: 100%;">
+            <source src="../../assets/videos/dirty_can_video.mp4" type="video/mp4">
+          </video>
         <a href="">
             <div class="card-img-overlay text-center align-middle postion-absolute top-50 start-50 translate-middle" style="padding-top: 20%;" id="dirty">
                 <h5 class="card-title m-5 fs-1">My Can is Dirty...</h5>
@@ -42,7 +46,7 @@
 <div>
 
     <!-- •	The welcome should show the review component into the top center of the body portion of the page -->
-    <app-review class="z-index-2" style="position:absolute; top:20%; left: 20%"></app-review>
+    <app-review class="z-index-2" style="position:absolute; top:20%; left: 35%"></app-review>
 </div>
     
 
